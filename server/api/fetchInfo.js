@@ -113,7 +113,4 @@ router.get(
   getCustomersWithOrdersAndShipment
 );
 
-// // Helper function
-// const getUser
-
 module.exports = router;
