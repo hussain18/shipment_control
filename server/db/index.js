@@ -3,9 +3,7 @@ require('dotenv').config();
 
 // Database Connection
 const connDB = () => {
-  mongoose.connect(
-    `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.yirrd.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`
-  );
+  mongoose.connect(process.env.DB_URL);
   mongoose.connection.on('error', (err) => {
     console.log('DATABASE_CONNECTION_ERROR: \n', err);
   });
