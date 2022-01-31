@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const db = require('./db');
+const api = require('./api');
 require('dotenv').config();
 
 app = express();
@@ -18,6 +19,8 @@ db.connDB();
 app.get('/', (req, res) => {
   res.sendStatus(418);
 });
+
+app.use('/', api.addInfoRouters);
 
 // Listening
 app.listen(PORT, () => {

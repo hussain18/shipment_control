@@ -1,4 +1,8 @@
 const mongoose = require('mongoose');
+const customer = require('./customer');
+const purchaseOrder = require('./purchaseOrder');
+const shipment = require('./shipment');
+
 require('dotenv').config();
 
 // Database Connection
@@ -14,4 +18,7 @@ const connDB = () => {
 
 module.exports = {
   connDB,
+  customer,
+  shipment,
+  purchaseOrder,
 };

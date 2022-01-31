@@ -7,15 +7,15 @@ const purchaseOrderSchema = new Schema({
     required: true,
   },
   quantity: {
-    type: String,
+    type: Number,
     required: true,
   },
   pricing: {
-    type: String,
+    type: Number,
     required: true,
   },
   mrp: {
-    type: String,
+    type: Number,
     required: true,
   },
   customerId: {

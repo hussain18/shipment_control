@@ -11,7 +11,7 @@ const customerSchema = new Schema({
     required: true,
   },
   mobileNo: {
-    type: String,
+    type: Number,
     required: true,
   },
   city: {
@@ -20,4 +20,4 @@ const customerSchema = new Schema({
   },
 });
 
-module.exports = mongoose.model('customer', shippingSchema);
+module.exports = mongoose.model('customer', customerSchema);
