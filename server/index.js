@@ -21,6 +21,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/', api.addInfoRouters);
+app.use('/', api.fetchInfoRouters);
 
 // Listening
 app.listen(PORT, () => {
