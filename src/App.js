@@ -6,7 +6,6 @@ import CustomersPage from './pages/customers';
 import AddCustomerView from './pages/addCustomer';
 import AddPurchaseOrderView from './pages/addPurchaseOrder';
 import AddShippingDetailsView from './pages/addShippingDetails';
-import NavBar from './components/navbar';
 
 function App() {
   return (

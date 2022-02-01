@@ -1,5 +1,5 @@
 import NavBar from '../components/navbar';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { InlineInput, SelectInput } from '../components/inputs';
 import customersData from '../components/dummyData/customers.json';
 
