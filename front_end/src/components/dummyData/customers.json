@@ -1,0 +1,90 @@
+[
+    {
+        "_id": "61f7eb201b597bc46661903a",
+        "customerName": "Test Customer One",
+        "email": "customerone@mail.com",
+        "mobileNo": 1234567890,
+        "city": "Pune",
+        "__v": 0
+    },
+    {
+        "_id": "61f7ed3e1b597bc466619042",
+        "customerName": "Test Customer Five",
+        "email": "customer5@mail.com",
+        "mobileNo": 1234567890,
+        "city": "Pune",
+        "__v": 0
+    },
+    {
+        "_id": "61f7ed4b1b597bc466619044",
+        "customerName": "Test Customer Six",
+        "email": "customer6@mail.com",
+        "mobileNo": 1234567890,
+        "city": "Pune",
+        "__v": 0
+    },
+    {
+        "_id": "61f7ed581b597bc466619046",
+        "customerName": "Test Customer Seven",
+        "email": "customer7@mail.com",
+        "mobileNo": 1234567890,
+        "city": "Pune",
+        "__v": 0
+    },
+    {
+        "_id": "61f7ed9e1b597bc46661904c",
+        "customerName": "Test Customer Ten",
+        "email": "customerten@mail.com",
+        "mobileNo": 1234567890,
+        "city": "Pune",
+        "__v": 0
+    },
+    {
+        "_id": "61f832155c062913bd7a0191",
+        "customerName": "Test Customer Eleven",
+        "email": "customer11@mail.com",
+        "mobileNo": 1233427890,
+        "city": "Pune",
+        "__v": 0
+    },
+    {
+        "_id": "61f7ed001b597bc46661903c",
+        "customerName": "Test Customer two",
+        "email": "customertwo@mail.com",
+        "mobileNo": 1234567890,
+        "city": "Delhi",
+        "__v": 0
+    },
+    {
+        "_id": "61f7ed171b597bc46661903e",
+        "customerName": "Test Customer Three",
+        "email": "customer3@mail.com",
+        "mobileNo": 1234567890,
+        "city": "Delhi",
+        "__v": 0
+    },
+    {
+        "_id": "61f7ed251b597bc466619040",
+        "customerName": "Test Customer Four",
+        "email": "customer4@mail.com",
+        "mobileNo": 1234567890,
+        "city": "Delhi",
+        "__v": 0
+    },
+    {
+        "_id": "61f7ed791b597bc466619048",
+        "customerName": "Test Customer Eight",
+        "email": "customer8@mail.com",
+        "mobileNo": 1234567890,
+        "city": "Delhi",
+        "__v": 0
+    },
+    {
+        "_id": "61f7ed8d1b597bc46661904a",
+        "customerName": "Test Customer Nine",
+        "email": "customer9@mail.com",
+        "mobileNo": 1234567890,
+        "city": "Delhi",
+        "__v": 0
+    }
+]
