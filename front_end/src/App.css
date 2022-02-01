@@ -1,38 +1,70 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  font-family: 'Play', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sm-hovered:hover {
+  transform: scale(1.22594579);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.bg-hovered:hover {
+  transform: scale(1.08594579);
+}
+
+.normal-transition {
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.fast-transition {
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+
+/************************** Components Styles **************************/
+
+/* imageSlider.js */
+.icon-hovered:hover {
+  transform: scale(1.5234556)
+}
+
+.icon{
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.74, 2.12, 0.68, 0.73);
+}
+
+.slider-style {
+  min-height: 500px !important;
+}
+
+@keyframes onload {
+  0% {
+    opacity: 0;
+    transform: scale(0)
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1)
+  }
+
+  0% {
+    transform: rotate(90)
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.slide {
+  animation-name: onload;
+  animation-duration: 200ms;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Responsive to small screens */
+@media (max-width:576px) {
+  .slider-style {
+    min-height: 0px !important;
   }
 }
