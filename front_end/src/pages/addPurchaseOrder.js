@@ -44,7 +44,9 @@ const AddPurchaseOrderView = (props) => {
       <div className='container form-container'>
         <div className='row row-cols-1 justify-content-center'>
           <form onSubmit={handleSubmit} className='form'>
-            <h1 className='text-center fs-1 fw-bold mb-5'>Add Customer</h1>
+            <h1 className='text-center fs-1 fw-bold mb-5'>
+              Add purchase Order
+            </h1>
             <div className='row row-cols-1 g-3 align-items-center'>
               <InlineInput
                 label='Product Name'
